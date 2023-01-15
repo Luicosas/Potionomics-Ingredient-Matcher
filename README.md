@@ -1,6 +1,8 @@
 # Potionomics-Ingredient-Matcher
 A Potionomics ingredient matcher for getting the pesky 3 star perfect potions
 
+![Example recipes](https://github.com/Luicosas/Potionomics-Ingredient-Matcher/blob/main/example_recipes.png)
+
 # Intro
 This is a ingredient matching program to find the highest magnium count potions possible: 
 
@@ -24,6 +26,8 @@ The ingredients file should be a text file with each row having 5 numbers corres
 
 An ingredients file containing all ingredients in the game is included as example / use. 
 
+![Example ingredients file](https://github.com/Luicosas/Potionomics-Ingredient-Matcher/blob/main/example_ingredients_file.png)
+
 # Compilation 
 g++ -O3 ./matchpotion.cpp -o matchpotion
 
@@ -38,4 +42,4 @@ g++ -O3 ./matchpotion.cpp -o matchpotion
 
 ./matchpotion (ingredient list file name) (cauldron magnium limit) (cauldron ingredient limit) (A) (B) (C) (D) (E) 
 
-
+![Example program initialization](https://github.com/Luicosas/Potionomics-Ingredient-Matcher/blob/main/example_input.png)
